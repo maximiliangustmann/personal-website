@@ -8,5 +8,113 @@ body {
     margin: 0;
 
     padding: 20px;
-    
+
+    display: grid;
+
+    grid-template-rows: auto auto 20px;
+
+    height: 100vh;
+
 }
+
+
+ /* Header */
+
+header {
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color:  #1c437a ;
+color: white;
+
+
+
+}
+
+.name {
+    text-align: center;
+    margin: 10px 0;
+}
+
+nav {
+
+display: flex;
+flex-wrap: wrap;
+justify-content: space-evenly;
+
+}
+
+
+.navitem {
+
+border: 1px solid #FF5733 ;
+margin: 4px 20px;
+padding: 4px;
+color: white;
+
+
+}
+
+/* Main */
+
+main {
+
+overflow: auto;
+
+}
+
+
+img {
+
+    width: 100%;
+
+
+}
+
+.intski {
+
+display: flex;
+flex-direction: column;
+background-color: #1c437a;
+color: white;
+
+}
+
+.intskihead {
+
+border: 4px solid #FF5733;
+padding: 4px;
+text-align: center;
+ 
+
+}
+
+.contacts {
+
+
+border: 10px solid #1c437a;
+margin: 20px 0;
+padding: 10px;
+
+}
+
+.solinks {
+
+display: flex;
+flex-direction: column;
+border: 10px solid #1c437a;
+padding: 10px;
+background-color: #FF5733;
+color: white;
+text-align: center;
+
+}
+
+.solinksitems {
+
+
+
+}
+
+
