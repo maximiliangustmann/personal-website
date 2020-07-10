@@ -71,7 +71,7 @@ overflow: auto;
 img {
 
     width: 100%;
-
+  
 
 }
 
@@ -166,6 +166,42 @@ h2 {
 
 }
 
+@media (min-width: 700px) {
+
+
+body {
+
+    max-width: 1000px;
+    margin: 0 auto;
+
+
+
+
+}
+
+main {
+
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+column-gap: 10px;
+
+
+}
+
+figure {
+
+
+
+grid-row: span 2;
+
+}
+
+.card
+
+
+
+
+}
 
 
 
