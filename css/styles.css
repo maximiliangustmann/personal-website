@@ -25,28 +25,34 @@ body {
 
  /* Header */
 
+
+
 header {
 
 align-items: center;
 background-color:  #004087 ;
 color: white;
 
-
-
 }
+
+
+
+    nav {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+    }
+
+
+
 
 .name {
     text-align: center;
     margin: 10px 0;
 }
 
-nav {
-
-display: flex;
-flex-wrap: wrap;
-justify-content: space-evenly;
-
-}
 
 
 .navitem {
@@ -71,13 +77,44 @@ overflow: auto;
 img {
 
     width: 100%;
-  
-
+    
+    
 }
 
 
- 
 
+
+ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    
+}
+
+li {
+    
+    
+    border: 4px outset #004087;
+    padding: 2px;
+    margin: 2px;
+    text-align: center;
+    
+}
+
+h1 {
+    
+    font-family: 'Bangers', cursive;
+    
+}
+
+
+
+h2 {
+    
+    font-family: 'Montserrat Subrayada', sans-serif;
+    
+}
 
 
 .card {
@@ -111,69 +148,45 @@ background-color: black;
 
 }
 
+
+.socials {
+    
+    display: flex;
+    flex-direction: column;
+    
+}
+
+
+.tags {
+    
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+    
+    
+}
+
+
+
+/* footer */
+
+
 footer {
 
 color: white; 
 
 }
 
-.socials {
-
-display: flex;
-flex-direction: column;
-
-}
-
-
-.tags {
-
-display: grid;
-grid-template-columns: repeat(2, 1fr);
-
-
-
-}
-
-ul {
-
-list-style-type: none;
-margin: 0;
-padding: 0;
-
-}
-
-li {
-
-
-    border: 4px outset #004087;
-    padding: 2px;
-    margin: 2px;
-    text-align: center;
-
-}
-
-h1 {
-
-    font-family: 'Bangers', cursive;
-
-}
-
-
-
-h2 {
-
-    font-family: 'Montserrat Subrayada', sans-serif;
-
-}
+/* Bigger Display */
 
 @media (min-width: 700px) {
-
-
-body {
-
-    max-width: 1000px;
-    margin: 0 auto;
-
+    
+    
+    body {
+        
+        max-width: 1000px;
+        margin: 0 auto;
+        
 
 
 
@@ -195,8 +208,6 @@ figure {
 grid-row: span 2;
 
 }
-
-.card
 
 
 
